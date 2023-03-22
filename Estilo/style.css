@@ -1,0 +1,113 @@
+
+
+body{
+    background-image:url(../imagenes/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+a{
+    text-decoration: none;
+    
+}
+.cuadro{
+    
+    box-shadow: inset black ;
+    border-top:solid 1px rgb(184, 57, 235);
+    border-top: 2px;
+    background-color: rgb(158, 111, 40);
+    color:aliceblue;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    padding: 4px;
+    padding-bottom: 8px;
+    font-size: 1.5em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+    
+
+}
+.titulo{
+    text-align: center;
+}
+#barra{
+    background-color: blue;
+}
+.portada{
+    text-decoration: underline double 2px aliceblue;
+}
+#home{
+    background-color: rgb(119, 105, 41);
+    transition:background-color .4s ;
+    font-weight: bolder;
+}
+#home:hover{
+    color: rgb(5, 9, 65);
+    background-color: rgb(97, 73, 112);
+    font-weight: bolder;
+
+}
+#espacioblancoindex{
+    color:rgb(158, 111, 40) ;
+    text-decoration: underline double 3px aliceblue;
+    font-size: 10px;
+
+}
+#indice{
+    background-color: rgb(158, 111, 40);
+    font-style: oblique;
+    color: aliceblue;
+    text-align: center;
+    
+}
+#practicas{
+    background-color: rgb(13, 122, 99);
+    color: rgb(235, 211, 166);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height:500px;
+    text-align: center;
+    border:1px double rgb(235, 211, 166) ;
+}
+.tabla{
+    border:1px dashed rgb(235, 211, 166) ;
+}
+.desafios{
+    background-color: rgb(101, 221, 195);
+    font-weight: bold;
+    transition: background-color .5s;
+    transition: font-size .5s;
+}
+.desafios:hover{
+    background-color: rgb(227, 205, 233);
+    font-weight: bold;
+    font-size: 1.5em;
+    color: rgb(102, 62, 11);
+
+}
+#flecha{
+    width: auto;
+    height: auto;
+    transition: width .4s;
+    transition: height .4s;
+
+}
+#flecha:hover{
+    width: 8%;
+    height: 8%;
+}
+#github{
+    width:50px  ;
+    height: 50px;
+}
